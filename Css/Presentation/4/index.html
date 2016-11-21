@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Problem4</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wraper">
+		<header>
+			<img class="thumbnail" src="thumbnail.png" alt="thumbnail">
+			<p id="title">Calculator</p>
+			<button class="header-button" id="x-button"></button>
+			<button class="header-button" id="button2"></button>
+			<button class="header-button" id="button1"></button>
+		</header>
+		<div id="main">
+			<header id="menu">
+				<p class="menu">View</p>
+				<p class="menu">Edit</p>
+				<p class="menu">Help</p>
+			</header>
+			<section>
+				<input  id="display" type="text" value="8854455 ">
+			</section>
+			<section id="table">
+				<table id="bit-section">
+						<tr class="bit">
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+						</tr>
+						<tr class="decimal">
+							<td>63</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>47</td>
+							<td></td>
+							<td></td>
+							<td>32</td>
+						</tr>
+						<tr class="bit">
+							<td>0000</td>
+							<td>0000</td>
+							<td>1000</td>
+							<td>0111</td>
+							<td>0001</td>
+							<td>1011</td>
+							<td>1011</td>
+							<td>0111</td>
+						</tr>
+						<tr class="decimal">
+							<td>31</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>15</td>
+							<td></td>
+							<td></td>
+							<td>0</td>
+						</tr>
+				</table>
+			</section>
+			<section>
+				<article id="left">
+					<div class="side-radio">
+						<form action="">
+						  <input type="radio" name="num-sys" value="Hex" id="Hex"><label for="Hex" class="blue">Hex</label><br>
+						  <input type="radio" name="num-sys" value="Dex" id="Dex" checked><label for="Dex" class="blue">Dex</label><br>
+						  <input type="radio" name="num-sys" value="Oct" id="Oct"><label for="Oct" class="blue">Oct</label><br>
+						  <input type="radio" name="num-sys" value="Bin" id="Bin"><label for="Bin" class="blue">Bin</label><br>
+						</form>
+					</div>
+					<div class="side-radio">
+						<form action="">
+						  <input type="radio" name="bit-size" value="Qword" id="Qword" checked><label for="Qword" class="blue">Qword</label><br>
+						  <input type="radio" name="bit-size" value="DeDwordx" id="Dword"><label for="Dword" class="blue">Dword</label><br>
+						  <input type="radio" name="bit-size" value="Word" id="Word"><label for="Word" class="blue">Word</label><br>
+						  <input type="radio" name="bit-size" value="Bite" id="Bite"><label for="Bite" class="blue">Bite</label><br>
+						</form>
+					</div>
+				</article>
+				<article class="right">
+					<div class="button-90 button"><button disabled="" class="but-clear-bck no-inset"></button></div>
+					<div class="button-90 button"><button>&#40</button></div>
+					<div class="button-90 button"><button>RoL</button></div>
+					<div class="button-90 button"><button>Or</button></div>
+					<div class="button-90 button"><button>Lsh</button></div>
+					<div class="button-90 button"><button>Not</button></div>
+				</article>
+				<article class="right">
+					<div class="button-130 button"><button>Mod</button></div>
+					<div class="button-130 button"><button>&#41</button></div>
+					<div class="button-130 button"><button>RoR</button></div>
+					<div class="button-130 button"><button>Xor</button></div>
+					<div class="button-130 button"><button>Rsh</button></div>
+					<div class="button-130 button"><button>And</button></div>
+				</article>
+				<article class="right">
+					<div class="button-170 button"><button disabled=""class="but-clear-bck no-inset">A</button></div>
+					<div class="button-170 button"><button disabled=""class="but-clear-bck no-inset">B</button></div>
+					<div class="button-170 button"><button disabled=""class="but-clear-bck no-inset">C</button></div>
+					<div class="button-170 button"><button disabled=""class="but-clear-bck no-inset">D</button></div>
+					<div class="button-170 button"><button disabled=""class="but-clear-bck no-inset">E</button></div>
+					<div class="button-170 button"><button disabled=""class="but-clear-bck no-inset">F</button></div>
+				</article>
+				<article class="right">
+					<div class="button-210 button"><button class="but-clear-bck">MC</button></div>
+					<div class="button-210 button"><button>&#8592</button></div>
+					<div class="button-210 button"><button class="num">7</button></div>
+					<div class="button-210 button"><button class="num">4</button></div>
+					<div class="button-210 button"><button class="num">1</button></div>
+					<div class="button-210 button zero"><button class="zero num">0</button></div>
+				</article>
+				<article class="right">
+					<div class="button-250 button"><button class="but-clear-bck">MR</button></div>
+					<div class="button-250 button"><button>CE</button></div>
+					<div class="button-250 button"><button class="num">8</button></div>
+					<div class="button-250 button"><button class="num">5</button></div>
+					<div class="button-250 button"><button class="num">2</button></div>
+				</article>
+				<article class="right">
+					<div class="button-290 button"><button class="but-clear-bck">MS</button></div>
+					<div class="button-290 button"><button>C</button></div>
+					<div class="button-290 button"><button class="num">9</button></div>
+					<div class="button-290 button"><button class="num">6</button></div>
+					<div class="button-290 button num"><button class="num">3</button></div>
+					<div class="button-290 button"><button class="but-clear-bck no-inset" disabled="">&#46</button></div>
+				</article>
+				<article class="right">
+					<div class="button-330 button"><button class="but-clear-bck">M+</button></div>
+					<div class="button-330 button"><button>&#177</button></div>
+					<div class="button-330 button"><button>&#47</button></div>
+					<div class="button-330 button"><button>&#42</button></div>
+					<div class="button-330 button"><button>&#45</button></div>
+					<div class="button-330 button"><button>&#43</button></div>
+				</article>
+				<article class="right">
+					<div class="button-370 button"><button class="but-clear-bck">M-</button></div>
+					<div class="button-370 button"><button disabled="" class="but-clear-bck no-inset">&#8730</button></div>
+					<div class="button-370 button"><button disabled="" class="but-clear-bck no-inset">&#37</button></div>
+					<div class="button-370 button"><button disabled="" class="but-clear-bck no-inset">1&#47x</button></div>
+					<div class="button-370 button equal" ><button class="equal">&#61</button></div>
+				</article>
+			</section>
+		</div>
+	</div>
+</body>
+</html>

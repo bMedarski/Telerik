@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wraper{
+	margin: 100px;
+	width: 1065px;
+	height: 775px;
+	border:3px solid black;
+	border-radius: 10px;
+}
+.clear{
+	clear: both;
+}
+header{
+	text-align: center;
+	padding:10px 2px;
+	margin: 2px;
+	font-size: 38px;
+}
+a{
+	color: #08B1F0;
+}
+nav{
+	margin-bottom: 11px;
+}
+hr{
+	width: 994px;
+	margin: 0 auto;
+	border-width: 3px;
+	color: black;
+}
+#left{
+	float: left;
+	border:3px solid black;
+	margin-left: 12px;
+	width: 690px;
+	height: 670px;
+}
+fieldset{
+	border:3px solid black;
+	margin-left: 8px;
+	text-align: center;
+	font-size: 30px;
+	width: 326px;
+	margin-right: 5px;
+}
+img{
+	float: left;
+	margin-bottom: 28px;
+}
+.par1{
+	font-size: 25px;
+	margin-top: 42px;
+	text-align: left;
+
+}
+.par2{
+	font-size: 25px;
+	padding-top: 20px;
+	text-align: left
+}
+.par3{
+	font-size: 25px;
+	text-align: left;
+	margin:0px 32px 10px 40px;
+	float: left;
+}
+.par4{
+	font-size: 25px;
+	text-align: left;
+	margin-left: 10px;
+}
+.float-left{
+	float: left;
+}
+.range-label, .range{
+	margin: 25px 5px;
+	font-size: 37px;
+
+}
+#right{
+	text-align: center;
+	padding: 10px;
+	vertical-align: center;
+}
+form{
+	padding-top: 85px;
+}

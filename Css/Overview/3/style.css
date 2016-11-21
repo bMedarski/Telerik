@@ -1,0 +1,49 @@
+body,header,nav,section,footer,article,h1,ul,li,a,p{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #A9A9A9;
+	/*background-image: url(background.png);
+	background-repeat: no-repeat;*/
+	padding: 12px;
+}
+h1{
+	color: #FAFAD2;
+	text-align: center;
+	font-size: 32px;
+	padding: 15px 0;
+}
+p{
+	color: #140603;
+	padding: 15px 0;
+}
+article>header>h1{
+	text-align: left;
+	font-size: 20px;
+}
+li>a{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+li{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+footer>p{
+	font-size: 12px;
+}
+p>a{
+	color: #140603;
+}
+body>footer{
+	text-align: center;
+}
+li:nth-child(2)>a{
+	background-color: #D3D3D3;
+}
+li:nth-child(4)>a{
+	text-decoration:underline;
+}

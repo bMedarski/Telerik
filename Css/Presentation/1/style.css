@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script);
+
+body, header, section, , article, p, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div, header, body, article,  {
+    display: block;
+}
+body{
+	font-family: Consolas, Edwardian Script ITC;
+	color: #0094ff;
+	width: 960px;
+	margin: auto;
+}
+p{
+	font-size: 20px;
+	line-height: 25px;
+}
+p::first-letter{
+	font-size: 50px;
+	font-family: Edwardian Script ITC;
+	font-weight: bold;
+}
+p::first-line{
+	line-height: 50px;
+	font-weight: bold;
+}

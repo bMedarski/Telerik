@@ -1,0 +1,26 @@
+body,ul,li,section{
+	margin: 0;
+	padding:0;
+}
+section{
+	margin: 100px;
+}
+ul{
+  list-style: none;
+  position: relative;
+}
+
+li{
+  display: none;
+}
+
+ul:hover span{
+  text-decoration:underline;
+}
+
+ul:hover li{
+  display: block;
+  text-indent: 10px;
+  text-decoration: none;
+  color:grey;
+}

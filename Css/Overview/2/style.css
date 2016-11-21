@@ -1,0 +1,38 @@
+body, table, thead, tbody, td, tr, th, img{
+	margin: 0;
+	padding:0;
+}
+table{
+	border-collapse: collapse;
+}
+thead>tr{
+	background-color: #56B906;
+	color: white;
+}
+td,th{
+	padding: 3px;
+	text-align: left;
+	font-weight: normal;
+	border-left: 1px solid grey;
+	font-size: 12px;
+}
+.yellow{
+	background-color: #ECECD8;
+}
+th{
+	padding: 5px 5px;
+	font-weight: lighter;
+
+}
+thead>tr>th:first-child,th:nth-child(2),th:nth-child(3){
+	padding-right: 75px;
+	line-height: 18px;
+}
+
+thead>tr>th:nth-child(4){
+	padding-right: 20px;
+	line-height: 18px;
+}
+img{
+	margin: 0 4px;
+}

@@ -1,0 +1,41 @@
+body, p, th, td, tr, li, ul, div{
+	padding: 0;
+	margin: 0;
+}
+ul, li {
+	list-style-type: none;
+}
+th{
+	color: #B6B8BA;
+	text-align: left;
+	padding: 5px 0 10px;
+	font-size: 18px;
+	font-weight: normal;
+}
+tr>td{
+	padding: 4px;
+	font-size: 12px;
+	vertical-align: top;
+}
+tr>td:first-child{
+	color: white;
+	font-style: italic;
+	width: 85px;
+}
+table{
+	width: 300px;
+	height: 200px;
+	background-color: #595959;
+}
+.orange{
+	color: #DB6A21;
+}
+.red{
+	color: #EF1F3B;
+}
+.grey{
+	color: #B6B8BA;
+}
+.yellow{
+	color: #D8DCAD;
+}
