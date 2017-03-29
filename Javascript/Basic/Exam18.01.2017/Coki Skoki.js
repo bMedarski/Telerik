@@ -1,14 +1,24 @@
 function Solve(args){
     let n = args[0]*1;
-    let numbers = args.slice(1).map(Number);
-    let result = 1;
-    for(let i=0; i<n; i+=1){
+    let numbers = args.slice(1);
+    let result ;
+    if (numbers[0] % 2 == 1)
+    {
+        result = 1;
+    }
+    else {
+        result = 0;
+    }
 
-        if(numbers[i]%2===0){
-            result += numbers[i];
-            i++;
+
+    for(let i=0; i<n;){
+
+        if(numbers[i]*1%2===0){
+            result += numbers[i]*1;
+            i+=2;
         }else{
-            result *= numbers[i];
+            result *= numbers[i]*1;
+            i+=1;
         }
         result %=1024;
     }
