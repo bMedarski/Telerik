@@ -49,7 +49,7 @@ function solve() {
 		});
 
 		button.addEventListener('click', function(ev){
-			if(input.value===''){
+			if(input.value.trim()===''){
 			}else{
 				var inputValue = input.value.trim();
 				//console.log(inputValue);
