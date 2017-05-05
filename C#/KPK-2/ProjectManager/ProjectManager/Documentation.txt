@@ -1,0 +1,12 @@
+﻿Bugs:
+
+#1	//log.Error(msg);
+#2	engine.cs for(;;) => while(true)
+#3	var command = this.BuildCommand(commandName); => var command = commandName.ToLower();
+#4  In ModelsFactory method -> CreateUser  ///var user = new User(email, name); => var user = new User(name, email);///
+
+Bottleneck:
+
+#1
+In classes CreateUserCommand and CreateTaskCommand	the Initialization of database and modelsfactory must be outside 
+ Execute() method
